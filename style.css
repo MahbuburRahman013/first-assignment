@@ -22,20 +22,20 @@ header {
     padding-top: 40px;
 }
 
-.title {
+.main-title {
     color: #272727;
     font-size: 50px;
     font-weight: 800;
 }
 
-.description {
+.main-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     margin: 20px 0;
 }
 
-.btn{
+.btn {
     border-radius: 8px;
     background: #E55473;
     border: none;
@@ -43,4 +43,66 @@ header {
     color: #FFF;
     font-size: 18px;
     font-weight: 700;
+}
+
+/* start first hero section css  */
+
+.hero-sec-1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box img {
+    width: 200px;
+}
+
+.hero-1-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.box {
+    height: 350px;
+    width: 334px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    border-radius: 210px 210px 0 0;
+}
+
+.one {
+    background-color: #A7216226;
+}
+
+.two {
+    background-color: #0597A026;
+}
+
+.three {
+    background-color: #477D1126;
+}
+
+.card {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
 }

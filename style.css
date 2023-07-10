@@ -74,7 +74,7 @@ header {
 .hero-1-box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 50px;
 }
 
@@ -112,7 +112,7 @@ header {
 .hero-sec-2{
     width: 80%;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 .hero-2{
     display: flex;
@@ -144,4 +144,19 @@ header {
 .hero-2-right h6{
     text-align: center;
     font-size: 17px;
+}
+.hero-sec-3{
+    width: 100%;
+    background-color:#E554731A ;
+}
+.hero-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:  20px 100px;
+}
+.btn-3 {
+    text-align: center;
+    margin-left: 217px;
+    margin-top: 22px;
 }

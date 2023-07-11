@@ -106,61 +106,73 @@ header {
     font-weight: 700;
     text-decoration-line: underline;
 }
-.card h6{
+
+.card h6 {
     margin-top: 15px;
 }
-.hero-sec-2{
+
+.hero-sec-2 {
     width: 80%;
     margin: auto;
     margin-top: 100px;
 }
-.hero-2{
+
+.hero-2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.hero-2-right{
+
+.hero-2-right {
     display: flex;
     align-items: center;
-    width: 65%;
     height: 400px;
 }
-.hero-2-left{
+
+.hero-2-left {
     width: 35%;
 }
-.box-2 img{
+
+.box-2 img {
     width: 100%;
     height: 100%;
 }
-.box-2{
+
+.box-2 {
     width: 200px;
     height: 200px;
     border: 4px solid #477D1126;
     margin: 10px;
 }
-.hero-2-p{
+
+.hero-2-p {
     margin-top: 20px;
 }
-.hero-2-right h6{
+
+.hero-2-right h6 {
     text-align: center;
     font-size: 17px;
 }
+
 /* start hero section 3 css */
-.hero-sec-3{
+.hero-sec-3 {
     width: 100%;
-    background-color:#E554731A ;
+    background-color: #E554731A;
 }
-.hero-3{
+
+.hero-3 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding:  20px 100px;
+    padding: 20px 100px;
 }
+
 .btn-3 {
     text-align: center;
     margin-left: 217px;
     margin-top: 22px;
 }
+
 /* start hero section 4 css */
 
 .hero-4 {
@@ -172,18 +184,53 @@ header {
     justify-content: space-evenly;
     margin-top: 100px;
 }
+
 .images {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
 }
-.box-img img{
+
+.box-img img {
     width: 100%;
 }
-.box-img{
+
+.box-img {
     width: 230px;
     height: 330px;
 }
-.des-4{
+
+.des-4 {
     margin: 20px 0 40px;
+}
+
+/* start hero section 5 css  */
+
+.hero-5 {
+    width: 80%;
+    margin: auto;
+    height: 330px;
+    background-image: url("Flower Asset/Rectangle\ 9.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 5px;
+}
+
+.email {
+    margin-left: 200px;
+    width: 488px;
+    height: 47px;
+    border: none;
+    font-size: 17px;
+    padding: 0 19px;
+    border-radius: 5px;
+    
+}
+.pra-5{
+    margin: 20px 0;
+}
+.title-5{
+    padding-top: 80px;
 }

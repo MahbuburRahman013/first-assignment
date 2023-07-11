@@ -188,7 +188,7 @@ header {
 .images {
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .box-img img {
@@ -196,7 +196,7 @@ header {
 }
 
 .box-img {
-    width: 230px;
+    width: 240px;
     height: 330px;
 }
 
